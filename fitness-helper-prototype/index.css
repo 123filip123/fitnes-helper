@@ -1,0 +1,64 @@
+body {
+    position: relative;
+        width:480px;
+        height:700px;
+        margin:0 auto;
+        margin-top:1.5%;
+        /* margin-bottom: 1%; */
+        font-family: 'Inter';
+        color:black;
+        border: 3px solid black; 
+        border-radius: 8px;
+}
+html {
+    background: rgb(189, 175, 175);
+}
+
+.btn-group{
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    text-align: center;
+    
+}
+
+.title{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 2px solid red;
+}
+
+.workouts-splits-list {
+    font-size: 30px;
+}
+
+.breadcrumb > *{
+    font-size: 12px;
+}
+
+.exercise-image{
+    width: 100%;
+    height: auto;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+.bmi-container {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bmi-calculator {
+    width: 50%;
+}
+
+.bmi-info {
+    width: 50%;
+    font-size: 12px;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
